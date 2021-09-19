@@ -2,17 +2,18 @@
   border: 2px solid var(--bs-dark);
   background: var(--bs-light);
   color: var(--bs-dark);
-  font-weight: 600;
+  font-weight: var(--font-weight-6);
 }
 
 .nav-pills.nav-pills-custom .nav-link:hover {
-  color: var(--bs-secondary);
-  border: 2px solid var(--bs-secondary);
+  color: var(--bs-light);
+  background-color: var(--bs-dark);
+  font-weight: var(--font-weight-6);
 }
 
 .nav-pills.nav-pills-custom .nav-link.active,
 .nav-pills .show>.nav-link {
   color: var(--bs-light);
   background-color: var(--bs-dark);
-  font-weight: 600;
+  font-weight: var(--font-weight-6);
 }
