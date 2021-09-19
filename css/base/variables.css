@@ -1,7 +1,12 @@
 :root {
 
+  /* typography */
+  --font-weight-6: 600;
+
   /* components */
   --navbar-height: 60px;
   --footer-height: 60px;
+
+  --box-shadow-cutom: 0px 0px 6px -2px var(--bs-dark);
 
 }

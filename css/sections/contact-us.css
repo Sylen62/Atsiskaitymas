@@ -1,17 +1,35 @@
-/* .btn.btn-outline-dark.btn-custom-radio {
+.form-contact__label {
+  font-weight: var(--font-weight-6);
+}
+
+.form-contact__input {
+  box-shadow: var(--box-shadow-cutom);
+  border: none;
+}
+
+.form-contact__radio .btn {
   border: 2px solid var(--bs-dark);
   background: var(--bs-light);
   color: var(--bs-dark);
-  font-weight: 600;
+  font-weight: var(--font-weight-6);
 }
 
-.btn.btn-outline-dark.btn-custom-radio:hover {
-  color: var(--bs-secondary);
-  border: 2px solid var(--bs-secondary);
-}
-
-.btn.btn-outline-dark.btn-custom-radio input:checked {
+.form-contact__radio .btn:hover {
   color: var(--bs-light);
   background-color: var(--bs-dark);
-  font-weight: 600;
-} */
+  font-weight: var(--font-weight-6);
+}
+
+.form-contact__radio.btn-check:active+.btn-outline-dark,
+.btn-check:checked+.btn-outline-dark,
+.btn-outline-dark.active,
+.btn-outline-dark.dropdown-toggle.show,
+.btn-outline-dark:active {
+  color: var(--bs-light);
+  background-color: var(--bs-dark);
+  font-weight: var(--font-weight-6);
+}
+
+.form-contact__radio-submit {
+  font-weight: var(--font-weight-6);
+}
