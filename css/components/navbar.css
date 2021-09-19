@@ -1,0 +1,30 @@
+.navbar-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 5009;
+  box-shadow: 0 1px 2px 1px var(--bs-dark);
+}
+
+.navbar .navbar-custom {
+  height: var(--navbar-height);
+}
+
+.navbar-custom-logo {
+  box-shadow: 1px 0 0 0 var(--bs-white);
+}
+
+.navbar-custom .navbar-nav .nav-link {
+  color: var(--bs-white);
+}
+
+.navbar-custom .navbar-toggler {
+  color: var(--bs-white);
+  border-color: var(--bs-white);
+}
+
+.navbar-anchor-fix {
+  padding-top: var(--navbar-height);
+  margin-top: calc(-1 * var(--navbar-height) + 5);
+}
