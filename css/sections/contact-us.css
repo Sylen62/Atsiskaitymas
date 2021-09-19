@@ -1,0 +1,17 @@
+/* .btn.btn-outline-dark.btn-custom-radio {
+  border: 2px solid var(--bs-dark);
+  background: var(--bs-light);
+  color: var(--bs-dark);
+  font-weight: 600;
+}
+
+.btn.btn-outline-dark.btn-custom-radio:hover {
+  color: var(--bs-secondary);
+  border: 2px solid var(--bs-secondary);
+}
+
+.btn.btn-outline-dark.btn-custom-radio input:checked {
+  color: var(--bs-light);
+  background-color: var(--bs-dark);
+  font-weight: 600;
+} */

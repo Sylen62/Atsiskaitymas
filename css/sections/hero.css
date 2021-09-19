@@ -1,0 +1,57 @@
+.hero {
+  position: relative;
+  height: calc(100vh - var(--navbar-height));
+  margin: 0;
+  padding: 0;
+  padding-top: var(--navbar-height);
+}
+
+.hero__cover-img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: url("../../image/good-news.jpg");
+  background-position: center;
+  background-size: cover;
+  opacity: 0.20;
+}
+
+.hero__content {
+  height: 100%;
+  position: relative;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding-top: 1rem;
+}
+
+.hero__content__heading {
+  font-weight: 800;
+}
+
+.hero__link {
+  position: absolute;
+  text-align: center;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.hero__link>a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  width: 70px;
+  background: var(--bs-white);
+  color: var(--bs-dark);
+  font-size: 80px;
+  border-radius: 50%;
+  box-shadow: var(--bs-dark);
+  transition: all 0.3s ease-in-out;
+}
+
+.hero__link>a:hover {
+  color: var(--bs-white);
+  background: var(--bs-dark);
+  transform: scale(1.1);
+}
